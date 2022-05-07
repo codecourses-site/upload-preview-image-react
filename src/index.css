@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #112b3c;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.upload__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.upload__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload__placeholder {
+  align-items: center;
+  border-radius: 0.25rem;
+  border: 1px dashed #fff;
+  color: #fff;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 600;
+  justify-content: center;
+  margin-bottom: 1rem;
+  max-height: 15rem;
+  max-width: 15rem;
+  min-height: 15rem;
+  min-width: 15rem;
+  padding: 5rem;
+}
+
+.upload__placeholder:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.upload__content {
+  border-radius: 0.25rem;
+  height: 15rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  width: 15rem;
+}
+
+.upload__content:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
